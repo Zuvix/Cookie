@@ -6,14 +6,14 @@ using TMPro;
 public class Clicker : MonoBehaviour
 {
     public TMP_Text countTxt;
-    int count;
+    int cookieCount;
     private void Start()
     {
-        count = 0;
+        cookieCount = 10;
     }
     private void OnMouseDown()
     {
-        count++;
-        countTxt.text = "Cookies: " + count;
+        cookieCount++;
+        countTxt.text = "Cookies: " + cookieCount;
     }
 }
