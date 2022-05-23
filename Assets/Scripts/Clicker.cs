@@ -20,6 +20,7 @@ public class Clicker : MonoBehaviour
     }
     private void Update()
     {
+        //Use U to upgrade clicker
         if(cookieCount>20 && Input.GetKeyDown(KeyCode.U))
         {
             cookieCount -= 20;
